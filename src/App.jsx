@@ -16,12 +16,12 @@ export default function App() {
     <Box  w='100%' bgColor='white' border='1px' borderColor='black.200' borderRadius='30px'>
       
       <Box>
-      <Image src= {'../src/photo.jpg'} alt={property.imageAlt}></Image>
+      <Image marginLeft="2%"src= {'../src/photo.jpg'} alt={property.imageAlt } w='40%'></Image>
       <OrderedList>
-          <Box>Languages</Box>
-          <ListItem> Japanese</ListItem>
-          <ListItem> English </ListItem>
-          <ListItem> Indonesian</ListItem>
+          <Box w= "50%">Languages</Box>
+          <ListItem textAlign={'left'}> Japanese</ListItem>
+          <ListItem textAlign={'left'}> English </ListItem>
+          <ListItem textAlign={'left'}> Indonesian</ListItem>
       
       </OrderedList>
       </Box>
