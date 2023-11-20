@@ -79,7 +79,7 @@ export default function App() {
         </Box>
         <Box display="flex" marginLeft = "10%" justifyContent="space-between" fontSize= "90%"marginTop="5%"textAlign="left"  marginBottom="15%"marginRight="10%" >
                 I am a fresh graduate who is looking for
-                a job as a software development or doing data analysis. 
+                a job as a software developmer or doing data analysis. 
 
                 I enjoy tackling difficult coding problems and try
                 to implement them in my mini projects. I also enjoy learning
