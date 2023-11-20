@@ -25,7 +25,7 @@ export default function App() {
 
 
   return (
-    <>
+    <Center>
   <Box display="flex" boxShadow='dark-lg' minWidth="735" minHeight = "1000"rounded='md' maxW="800"  w='100%'h="100%" bgColor='white' border='1px' borderColor='black.200' borderRadius='30px'>
 
       <Box w="30%"  >
@@ -92,7 +92,7 @@ export default function App() {
       
     
     </Box>
-    </>
+    </Center>
   )
 }
 
