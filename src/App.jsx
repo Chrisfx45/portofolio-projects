@@ -45,7 +45,7 @@ export default function App() {
             </OrderedList>
             </Box>
           </Box>
-          <Box marginBottom="10%" w= "100%">Languages</Box>
+          <Center marginBottom="10%" w= "100%">Languages</Center>
           <Box marginLeft= "8%" display='flex' w="100%"  borderBottom='2px' borderColor='blue.300' >         
             <Box marginLeft="2%" w= "46%"  >
             <OrderedList >
