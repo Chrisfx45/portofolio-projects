@@ -30,7 +30,7 @@ export default function App() {
 
   return (
     <Center>
-  <Box display="flex" boxShadow='dark-lg' minWidth="735" minHeight = "1100"rounded='md' maxW="800"  w='100%'h="100%" bgColor='white' border='1px' borderColor='black.200' borderRadius='30px'>
+  <Box display="flex" boxShadow='dark-lg' minWidth="735" minHeight = "1150"rounded='md' maxW="800"  w='100%'h="100%" bgColor='white' border='1px' borderColor='black.200' borderRadius='30px'>
 
       <Box w="30%"  >
         <Center marginBottom="10%" w= "120.5%" height="28%" borderTopLeftRadius="30px" backgroundColor="darkgray" >
@@ -142,11 +142,11 @@ export default function App() {
           Experiences
         </Box >
           <Grid templateColumns = "repeat(5, 1fr)" gap ={2} marginTop="2%" marginRight = "5%">
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2}>2023/11-Now<br/>
-                                                   <Text fontSize = "0.95vw"> Remote </Text>
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "0.95vw">2023/11-Now<br/>
+                                                   <Text fontSize = "0.85vw"> Remote </Text>
           </GridItem>
-          <GridItem colSpan ={3} rowSpan ={2}>Application Fullstack Developer<br/>
-                                              <Text fontSize = "0.95vw">
+          <GridItem colSpan ={3} rowSpan ={2} fontSize = "0.95vw">Application Fullstack Developer<br/>
+                                              <Text fontSize = "0.85vw">
                                               Create an application that can be run with IOS and android devices using React Native frame work.
                                               Design the application database and its structure.
                                               </Text>
@@ -160,26 +160,26 @@ export default function App() {
           Personal Projects
         </Box >
           <Grid templateColumns = "repeat(5, 1fr)" gap ={2} marginTop="2%" marginRight = "5%">
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2}>2023/12-2024/1<br/>
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "0.95vw">2023/12-2024/1<br/>
                                                     
           </GridItem>
-          <GridItem colSpan ={3} rowSpan ={2}>Portofolio Website <br/>
-                                              <Text fontSize = "0.95vw">Design a personal portofolio using Chakra and React framework and deploy it to a public domain</Text>
+          <GridItem colSpan ={3} rowSpan ={2} fontSize = "0.95vw">Portofolio Website <br/>
+                                              <Text fontSize = "0.85vw">Designed a personal portofolio using Chakra and React framework and deploy it to a public domain</Text>
           
           </GridItem>
 
                                               
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2}>2023/11-2023/12<br/>
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "0.95vw">2023/11-2023/12<br/>
                                                     
           </GridItem>
-          <GridItem colSpan ={3} rowSpan ={2}>Mock Website For Front End Practice <br/>
-          <Text fontSize = "0.95vw">Design and create a website with a functional API call from a public domain and deploy it</Text>
+          <GridItem colSpan ={3} rowSpan ={2} fontSize = "0.95vw">Mock Website For Front End Practice <br/>
+          <Text fontSize = "0.85vw">Designed and create a website with a functional API call from a public domain and deploy it</Text>
           </GridItem>
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2}>2024/1-2024/2<br/>
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "0.95vw">2024/1-2024/2<br/>
                                               
           </GridItem>
-          <GridItem colSpan ={3} rowSpan ={2}>Event Management Website <br/>
-          <Text fontSize = "0.95vw"> Create a personal website for an event management using Next.js as the front end and Express for the backend </Text>
+          <GridItem colSpan ={3} rowSpan ={2}fontSize = "0.95vw">Event Management Website <br/>
+          <Text fontSize = "0.85vw"> Created a personal website for an event management using Next.js as the front end and Express for the backend </Text>
           </GridItem>
           
 
@@ -190,19 +190,19 @@ export default function App() {
         <Box marginLeft = "5%" w="80%" fontSize= "200%"marginRight="10%" textAlign= "Right"marginTop="3%"   borderBottom='2px' borderColor='blue.300'>
           Skills
         </Box >
-          <Grid templateColumns = "repeat(4, 1fr)" gap ={1} margin="2%" fontSize = "1vw" marginLeft = "5%" marginRight = "5%">
-          <GridItem colSpan ={1}>JavaScript</GridItem>
-          <GridItem colSpan ={1}>TypeScript</GridItem>
-          <GridItem colSpan ={1}>Java</GridItem>
-          <GridItem colSpan ={1}>HTML</GridItem>
-          <GridItem colSpan ={1}>CSS</GridItem>
-          <GridItem colSpan ={1}>Python</GridItem>
-          <GridItem colSpan ={1}>MYSQL</GridItem>
-          <GridItem colSpan ={1}>C</GridItem>
-          <GridItem colSpan ={1}>Godot</GridItem>
-          <GridItem colSpan ={1}>React</GridItem>
-          <GridItem colSpan ={1}>Next.js</GridItem>
-          <GridItem colSpan ={1}>React Native</GridItem>
+          <Grid templateColumns = "repeat(4, 1fr)" gap ={1} margin="2%" fontSize = "1vw" marginLeft = "5%" marginRight = "5%" >
+          <GridItem colSpan ={1}fontSize = "0.85vw">JavaScript</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">TypeScript</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">Java</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">HTML</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">CSS</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">Python</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">MYSQL</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">C</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">Godot</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">React</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">Next.js</GridItem>
+          <GridItem colSpan ={1}fontSize = "0.85vw">React Native</GridItem>
           </Grid>
       </Box>
       </Box>
