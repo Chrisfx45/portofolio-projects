@@ -30,25 +30,25 @@ export default function App() {
 
   return (
   <Center>
-  <Box display="flex" boxShadow='dark-lg' minWidth="800" minHeight = "1060"rounded='md' maxW="800" maxH={"1131"}  w='100%'h="100%" bgColor='white' border='1px' borderColor='black.200' borderRadius='30px'>
+  <Box display="flex" boxShadow='dark-lg' minWidth="800" minHeight = "1060"rounded='md' maxW="800" maxH={"1131"}  w='100%'h="100%" bgColor='white' border='1px' borderColor='black.200'>
 
       <Box w="35%" borderRight='2px'borderColor='lightgray'>
-        <Center marginBottom="5%" w= "100%" minH={"13.1%"} position={"relative"} borderTopLeftRadius="30px" backgroundColor="lightgray"  >
+        <Center marginBottom="5%" w= "100%" minH={"13%"} position={"relative"} backgroundColor="lightgray"  >
 
-          <Image position={"absolute"}style={{top: "15px", left: "100px"}} bgColor='white' border='2px' borderColor='lightgray' p = "2%"src= {photo} alt={property.imageAlt } w='60%' borderRadius='50%'></Image>
+          <Image position={"absolute"}style={{top: "9px", left: "73px"}} bgColor='white' border='2px' borderColor='lightgray' p = "2%"src= {photo} alt={property.imageAlt } w='60%' borderRadius='50%'></Image>
         </Center>
        
 
 
           
-        <Center marginLeft="8%" w="92%" marginTop = "21.5%" marginBottom="2%" fontSize = "150%">Contacts</Center>
+        <Center marginLeft="8%" w="92%" marginTop = "15%" marginBottom="2%" fontSize = "150%">Contacts</Center>
           <Box >         
             <Box marginLeft="8%" w= "92%" borderBottom='2px' borderColor='lightgray' >
-            <OrderedList marginBottom="5%" >
-              <ListItem textAlign={'left'}display="flex" fontSize="small">< Image w="8%"  height= "3%" src={mail} alt='mail' marginRight="1%"></Image>christopher.fx45@gmail.com</ListItem>
-              <ListItem textAlign={'left'}display="flex" fontSize="small"><Image w="8%"  height= "3%"src={wa} alt='wa'marginRight="1%"></Image>+6281 9258 3010</ListItem>
-              <ListItem textAlign={'left'}display="flex" fontSize="small"><Image w="8%" height= "3%" src={linked} alt='ig' marginRight="1%"></Image>Pelepah Raya WT1 No.22</ListItem>
-              <ListItem textAlign={'left'}display="flex" fontSize="small" marginLeft="9%"> Kelapa Gading, Jakarta</ListItem>
+            <OrderedList marginBottom="5%"  fontSize = "100%" >
+              <ListItem textAlign={'left'}display="flex" >< Image w="8%"  height= "3%" src={mail} alt='mail' marginRight="1%"></Image>christopher.fx45@gmail.com</ListItem>
+              <ListItem textAlign={'left'}display="flex" ><Image w="8%"  height= "3%"src={wa} alt='wa'marginRight="1%"></Image>+6281 9258 3010</ListItem>
+              <ListItem textAlign={'left'}display="flex" ><Image w="8%" height= "3%" src={linked} alt='ig' marginRight="1%"></Image>Pelepah Raya WT1 No.22</ListItem>
+              <ListItem textAlign={'left'}display="flex"  marginLeft="9%"> Kelapa Gading, Jakarta</ListItem>
             </OrderedList>
             </Box>
           </Box>
@@ -98,7 +98,7 @@ export default function App() {
 
       </Box>
       <Box w = "65%"  height="100%">
-      <Box borderTopRightRadius="30px" w="100%" backgroundColor='lightgrey' textColor= "black" minHeight={"14%"} > 
+      <Box  w="100%" backgroundColor='lightgrey' textColor= "black" minHeight={"14%"} > 
         <Box marginLeft = "10%" paddingTop={"7.5%"} paddingBottom={"7.5%"}  >
           <Text fontSize={"150%"}>CHRISTOPHER AGAM DARMAWIRYA</Text>
 
@@ -122,9 +122,9 @@ export default function App() {
          
         </Box >
           <Grid templateColumns = "repeat(5, 1fr)" gap ={3} marginTop="1%"  marginRight = "5%">
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2019/4-2023/4
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2019/4-2023/3
           </GridItem>
-          <GridItem colSpan ={3} rowSpan ={2} fontSize = "80%">Bachelor of Computer Science at Ritsumeikan University, Japan</GridItem>
+          <GridItem colSpan ={3} rowSpan ={2} fontSize = "80%">Bachelor of Information Science and Engineering at Ritsumeikan University, Japan</GridItem>
           <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2023/10-2024/2
           </GridItem>
           <GridItem colSpan ={3} rowSpan ={2} fontSize = "80%">Finished Full Stack Developer Boot Camp at Purwadhika, Indonesia</GridItem>
@@ -172,7 +172,7 @@ export default function App() {
                                                     
           </GridItem>
           <GridItem colSpan ={3} rowSpan ={2} fontSize = "90%" fontWeight={"bold"}>Resume Website <br/>
-                                              <Text fontSize = "90%" fontWeight={"normal"}>Designed a personal portofolio using Chakra and React framework and deploy it to a public domain</Text>
+                                              <Text fontSize = "90%" fontWeight={"normal"}>Designed a personal resume using Chakra and React framework and deploy it to a public domain</Text>
           
           </GridItem>
 
