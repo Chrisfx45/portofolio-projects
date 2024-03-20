@@ -48,7 +48,7 @@ export default function App() {
               <ListItem textAlign={'left'}display="flex" >< Image w="8%"  height= "3%" src={mail} alt='mail' marginRight="1%"></Image>christopher.fx45@gmail.com</ListItem>
               <ListItem textAlign={'left'}display="flex" ><Image w="8%"  height= "3%"src={wa} alt='wa'marginRight="1%"></Image>+6281 9258 3010</ListItem>
               <ListItem textAlign={'left'}display="flex" ><Image w="8%" height= "3%" src={linked} alt='ig' marginRight="1%"></Image>Pelepah Raya WT1 No.22</ListItem>
-              <ListItem textAlign={'left'}display="flex"  marginLeft="9%"> Kelapa Gading, Jakarta</ListItem>
+              <ListItem textAlign={'left'}display="flex"  marginLeft="9%"> Kelapa Gading, Jakarta Utara</ListItem>
             </OrderedList>
             </Box>
           </Box>
@@ -113,9 +113,9 @@ export default function App() {
           Profile
         </Box>
         <Box  display="flex" flexGrow={1} marginLeft = "10%" justifyContent="space-between" fontSize= "80%"marginTop="2%"textAlign="left" paddingBottom = "3%"  marginRight="10%" >
-                A software engineer capable of doing data analysis and full stack developtment. Strong willed and creative individual who always strive to grow.
+                A software engineer capable of doing data analysis and full-stack development. Strong-willed and creative individual who always striving to grow.
                 Favorite activities include exploring
-                many programming languages, developing my personal game using Godot and tackling difficult coding problems 
+                programming languages, developing my personal game using Godot, and tackling difficult coding problems 
         </Box>
         <Box  paddingLeft = "10%" w="80%" fontSize= "150%"marginRight="10%" paddingTop={"0.5%"}  borderTop='2px' borderColor='lightgray'>
           Education
@@ -136,7 +136,7 @@ export default function App() {
           Experience
         </Box >
           <Grid templateColumns = "repeat(5, 1fr)" gap ={2} marginTop="2%" marginRight = "5%">
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "90%">2023/11-2024/4<br/>
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "90%">2023/11-2024/3<br/>
                                                    <Text fontSize = "90%"> Freelance</Text>
           </GridItem>
           <GridItem colSpan ={3} rowSpan ={2} fontSize = "90%" fontWeight={"bold"}>Application Fullstack Developer<br/>at FDSG <br/>
