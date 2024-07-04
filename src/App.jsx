@@ -125,7 +125,7 @@ export default function App() {
           <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2019/4-2023/3
           </GridItem>
           <GridItem colSpan ={3} rowSpan ={2} fontSize = "80%">Bachelor of Information Science and Engineering at Ritsumeikan University, Japan</GridItem>
-          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2023/10-2024/2
+          <GridItem colSpan ={2} textAlign ="Right" rowSpan ={2} fontSize = "80%">2023/10-2024/4
           </GridItem>
           <GridItem colSpan ={3} rowSpan ={2} fontSize = "80%">Finished Full Stack Developer Boot Camp at Purwadhika, Indonesia</GridItem>
 
