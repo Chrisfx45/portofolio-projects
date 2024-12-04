@@ -115,7 +115,7 @@ export default function App() {
         <Box  display="flex" flexGrow={1} marginLeft = "10%" justifyContent="space-between" fontSize= "80%"marginTop="2%"textAlign="left" paddingBottom = "3%"  marginRight="10%" >
                 A software engineer capable of doing data analysis and full-stack development. Strong-willed and creative individual who always striving to grow.
                 Favorite activities include exploring
-                programming languages, developing my personal game using Godot, and tackling difficult coding problems 
+                programming languages and tackling difficult coding problems 
         </Box>
         <Box  paddingLeft = "10%" w="80%" fontSize= "150%"marginRight="10%" paddingTop={"0.5%"}  borderTop='2px' borderColor='lightgray'>
           Education
